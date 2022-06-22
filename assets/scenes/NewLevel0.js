@@ -33,28 +33,6 @@ class NewLevel0 extends BaseScene {
 		// layer
 		const layer = mapa.createLayer("collide", ["level0"], 0, 0);
 
-		// bullet
-		const bullet = new PlayerBullet(this, 324, 1383);
-		this.add.existing(bullet);
-
-		// bulletOrigin
-		const bulletOrigin = new BulletOrigin(this, 279, 1397);
-		this.add.existing(bulletOrigin);
-
-		// player
-		const player = new Player(this, 206, 1407);
-		this.add.existing(player);
-
-		// brazoderecho
-		const brazoderecho = new BrazoDerecho(this, 198, 1370);
-		this.add.existing(brazoderecho);
-
-		// howToPlay
-		const howToPlay = this.add.image(270, 850, "howToPlay");
-
-		// gameOver
-		const gameOver = this.add.sprite(1014, 1220, "gameOver");
-
 		// lists
 		const doors = [];
 		const switches = [];
@@ -67,11 +45,6 @@ class NewLevel0 extends BaseScene {
 
 		this.tilespriteBG = tilespriteBG;
 		this.layer = layer;
-		this.bulletOrigin = bulletOrigin;
-		this.player = player;
-		this.brazoderecho = brazoderecho;
-		this.howToPlay = howToPlay;
-		this.gameOver = gameOver;
 		this.mapa = mapa;
 		this.doors = doors;
 		this.switches = switches;
@@ -89,16 +62,6 @@ class NewLevel0 extends BaseScene {
 	tilespriteBG;
 	/** @type {Phaser.Tilemaps.TilemapLayer} */
 	layer;
-	/** @type {BulletOrigin} */
-	bulletOrigin;
-	/** @type {Player} */
-	player;
-	/** @type {BrazoDerecho} */
-	brazoderecho;
-	/** @type {Phaser.GameObjects.Image} */
-	howToPlay;
-	/** @type {Phaser.GameObjects.Sprite} */
-	gameOver;
 	/** @type {Array<any>} */
 	doors;
 	/** @type {Array<any>} */

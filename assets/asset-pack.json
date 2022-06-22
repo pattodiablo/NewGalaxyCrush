@@ -3,13 +3,6 @@
         "files": [
             {
                 "url": [
-                    "assets/scenes/prefabs/ActiveZoneBoss.js"
-                ],
-                "type": "scripts",
-                "key": "ActiveZoneBoss"
-            },
-            {
-                "url": [
                     "assets/scenes/prefabs/AlertSign.js"
                 ],
                 "type": "scripts",

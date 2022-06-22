@@ -21,21 +21,22 @@ class Heart extends Phaser.GameObjects.Sprite {
 	/* START-USER-CODE */
 
 	create(){
+		console.log("Heart created")
 		this.scene.physics.add.overlap(this.scene.player, this, this.getHeart,false,this);
 
 	}
 
 
-	getHeart(){
-		if(this.scene.player.playerLife <= 	this.scene.game.playerData.maxLife){
-			this.scene.player.playerLife++
-			this.scene.lifepanel.calcularBarrasEncendidas();
+	getHeart(player,heart){
+		if(player.playerLife <= heart.scene.game.playerData.maxLife){
+			player.playerLife++
+			heart.scene.lifepanel.calcularBarrasEncendidas();
 		}
-		console.log(this.scene.player.playerLife);
+		console.log(player.playerLife);
 		
-		this.scene.supa_pickupheart_01.play();
+		heart.scene.supa_pickupheart_01.play();
 		
-		this.destroy();
+		heart.destroy();
 	
 
 	}
