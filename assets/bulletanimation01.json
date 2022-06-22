@@ -1,0 +1,48 @@
+{
+    "anims": [
+        {
+            "key": "hit1",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "hit10004",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "hideOnComplete": true
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

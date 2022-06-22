@@ -1,0 +1,66 @@
+{
+    "id": "dae0c595-f7aa-48e4-92ff-be93ff062d2a",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "430cefc0-8e1e-480f-a36f-08ed4dde7263",
+            "label": "blobberIdle_instance_10000",
+            "components": [
+                "StartAnimation",
+                "Physics"
+            ],
+            "StartAnimation.animationKey": "idleBlobber",
+            "texture": {
+                "key": "Blobber",
+                "frame": "blobberIdle instance 10000"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    },
+    "prefabProperties": [
+        {
+            "name": "travelDistance",
+            "label": "travelDistance1",
+            "tooltip": "travelDistance1",
+            "defValue": 100,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "veloBlobber",
+            "label": "veloBlobber",
+            "tooltip": "veloBlobber",
+            "defValue": 15,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "isVertical",
+            "label": "isVertical",
+            "tooltip": "isVertical",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

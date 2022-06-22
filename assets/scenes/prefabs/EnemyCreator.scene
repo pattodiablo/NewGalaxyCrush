@@ -1,0 +1,67 @@
+{
+    "id": "3305649f-477c-45f5-a110-8182010b02f0",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "e3da3af5-bf6e-4127-b879-9aae3cb2b03a",
+            "label": "container_1",
+            "components": [],
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "780da8e7-10e1-44be-a9dc-f56e6eebab8a",
+                    "label": "enemyCreator",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "propsNew",
+                        "frame": "enemyCreator instance 10000"
+                    }
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "creationTime",
+            "label": "creationTime",
+            "tooltip": "creationTime",
+            "defValue": 5000,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "enemyID",
+            "label": "enemyID",
+            "tooltip": "enemyID",
+            "defValue": "",
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "PodID",
+            "label": "PodID",
+            "tooltip": "PodID",
+            "defValue": "pod1",
+            "type": {
+                "id": "string"
+            }
+        }
+    ]
+}

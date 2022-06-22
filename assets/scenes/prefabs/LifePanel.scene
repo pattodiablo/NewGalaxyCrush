@@ -1,0 +1,152 @@
+{
+    "id": "fbcfdbd7-14de-44d5-83d1-9316ebaac8ec",
+    "sceneType": "PREFAB",
+    "settings": {
+        "snapWidth": 4,
+        "snapHeight": 14,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "2313ddf5-f32c-4658-89a2-a674684f0363",
+            "label": "container_1",
+            "components": [],
+            "x": -10,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "6946a021-af18-47e1-b797-9a80010188a1",
+                    "label": "lifepanel",
+                    "components": [],
+                    "texture": {
+                        "key": "lifepanel"
+                    },
+                    "x": 10
+                },
+                {
+                    "type": "Image",
+                    "id": "0564fec9-e9fb-442b-abe0-56fb0c0d2154",
+                    "label": "lifeBar1",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "lifeBar"
+                    },
+                    "x": -14
+                },
+                {
+                    "type": "Image",
+                    "id": "ac091740-6a9d-481d-8e66-7731754f5200",
+                    "label": "lifeBar2",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "lifeBar"
+                    },
+                    "x": -4
+                },
+                {
+                    "type": "Image",
+                    "id": "6da4e84d-5c4a-4d72-b406-efc8a81c6e6d",
+                    "label": "lifeBar3",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "lifeBar"
+                    },
+                    "x": 6
+                },
+                {
+                    "type": "Image",
+                    "id": "9a107132-af22-4ba8-92ac-b0be8727f74c",
+                    "label": "lifeBar4",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "lifeBar"
+                    },
+                    "x": 16
+                },
+                {
+                    "type": "Image",
+                    "id": "98540a29-35d7-4668-8bdf-9a30823254a6",
+                    "label": "lifeBar5",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "lifeBar"
+                    },
+                    "x": 26
+                },
+                {
+                    "type": "Image",
+                    "id": "b3cf13d1-7578-470b-bc21-5174f08f6d43",
+                    "label": "lifeBar6",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "lifeBar"
+                    },
+                    "x": 36
+                },
+                {
+                    "type": "Image",
+                    "id": "90677f4c-7a7c-4c30-be14-f04953f7b990",
+                    "label": "lifeBar7",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "lifeBar"
+                    },
+                    "x": 46
+                },
+                {
+                    "type": "Image",
+                    "id": "d15159fb-5033-40c1-8785-d091f46c35c1",
+                    "label": "lifeBar8",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "lifeBar"
+                    },
+                    "x": 56
+                },
+                {
+                    "type": "Image",
+                    "id": "82871688-a048-4eee-b226-fc7283a283d6",
+                    "label": "lifeBar9",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "lifeBar"
+                    },
+                    "x": 66
+                },
+                {
+                    "type": "Image",
+                    "id": "25c08e2b-e33b-4df1-8101-19dd50f642c0",
+                    "label": "lifeBar10",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "lifeBar"
+                    },
+                    "x": 76
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

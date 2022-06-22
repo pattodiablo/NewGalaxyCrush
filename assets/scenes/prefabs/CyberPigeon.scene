@@ -1,0 +1,56 @@
+{
+    "id": "7338f23b-1401-4bb6-a52f-153e164c65bc",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "22f7a512-328b-438e-b729-30aa3c8bc74c",
+            "label": "container_1",
+            "components": [],
+            "x": -13,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "b00899cf-6452-4e2e-a77c-74015e646073",
+                    "label": "pigeon",
+                    "scope": "CLASS",
+                    "components": [
+                        "StartAnimation",
+                        "Physics"
+                    ],
+                    "StartAnimation.animationKey": "pigeon/flying",
+                    "texture": {
+                        "key": "CyberPigeon",
+                        "frame": "CyberPigeon instance 10003"
+                    },
+                    "x": 13
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "distance",
+            "label": "distance",
+            "tooltip": "distance",
+            "defValue": 300,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

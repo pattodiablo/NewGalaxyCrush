@@ -1,0 +1,99 @@
+{
+    "id": "69e50468-d5e9-4362-82f7-dddd6680f130",
+    "sceneType": "PREFAB",
+    "settings": {
+        "snapWidth": 47,
+        "snapHeight": 40,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "8a8f57a7-281d-4e43-b13c-89a652994690",
+            "label": "container_1",
+            "components": [],
+            "x": -16,
+            "y": -137,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "94afc9f5-6482-4e2f-9f9f-b958fb231ac1",
+                    "label": "mainDoor",
+                    "scope": "CLASS",
+                    "components": [
+                        "Physics",
+                        "PhysicsBody"
+                    ],
+                    "PhysicsBody.bodyWidth": 130,
+                    "texture": {
+                        "key": "propsNew",
+                        "frame": "mainDoor0000"
+                    },
+                    "x": 16,
+                    "y": 137
+                },
+                {
+                    "prefabId": "5b6ba02c-d5c5-44f5-8a22-37d323cdcb27",
+                    "id": "e1aef1d8-2360-4f0d-a31f-596fe4d6de63",
+                    "label": "pointerDown",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 16,
+                    "y": 143
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "goToLevel",
+            "label": "goToLevel",
+            "tooltip": "goToLevel",
+            "defValue": "Level1",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "desde",
+            "label": "desde",
+            "tooltip": "desde",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "hasta",
+            "label": "hasta",
+            "tooltip": "hasta",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "isLocked",
+            "label": "isLocked",
+            "tooltip": "isLocked",
+            "defValue": true,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

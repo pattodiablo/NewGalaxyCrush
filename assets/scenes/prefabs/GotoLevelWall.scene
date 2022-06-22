@@ -1,0 +1,58 @@
+{
+    "id": "98617903-7395-4e97-bcd4-2600c23cbefd",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "e9e3b6a7-2bea-4f66-8886-72363c40b13f",
+            "label": "gotoLevelWall",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "gotoLevelWall"
+            },
+            "x": 18,
+            "tintTopLeft": "#fc5050",
+            "tintTopRight": "#fb7575",
+            "tintBottomLeft": "#a30404",
+            "tintBottomRight": "#f81212",
+            "tintFill": true
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "gotoLevelName",
+            "label": "gotoLevelName",
+            "tooltip": "gotoLevelName",
+            "defValue": "Level0",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "showScore",
+            "label": "showScore",
+            "tooltip": "showScore",
+            "defValue": true,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

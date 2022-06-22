@@ -1,0 +1,703 @@
+{
+    "anims": [
+        {
+            "key": "coin",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10019",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10020",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10021",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10022",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10023",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10024",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10025",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10026",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10027",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "moneda_animation instance 10028",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "spikes",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "props",
+                    "frame": "Symbol 6 instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "Symbol 6 instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "showOnStart": true
+        },
+        {
+            "key": "handPull",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "props",
+                    "frame": "Symbol 13 instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "props",
+                    "frame": "Symbol 13 instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 4,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "card",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "newCard instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "newCard instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "newCard instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "newCard instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "newCard instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "newCard instance 10005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "newCard instance 10006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "newCard instance 10007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "newCard instance 10008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "newCard instance 10009",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "catapultaOff",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "catpultaOff instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "catpultaOff instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "swtichOff",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "swtich0000",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "switchOn",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "swtich0001",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "doorOpened",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "smallDoor0001",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "canEnterDoor",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "smallDoor0001",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "doorClosed",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "smallDoor0000",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 1,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "bigDoorOpened",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "mainDoor0001",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 1,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "newSmallDoorOpened",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "puerta pequeña version 03.ai instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 1,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "newSmallDoorClosed",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "puerta pequeña version 03.ai instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 1,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "explode2",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10019",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10020",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10021",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10022",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10023",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10024",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10025",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10026",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10027",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10028",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10029",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10030",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10031",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10032",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10033",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "Symbol 16 instance 10034",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "hideOnComplete": true
+        },
+        {
+            "key": "catapultaOn",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew",
+                    "frame": "catapulta copy 2 instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew",
+                    "frame": "catapulta copy 2 instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "acidTile",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 35 instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 35 instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "propsNew2",
+                    "frame": "Symbol 35 instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "showOnStart": true
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

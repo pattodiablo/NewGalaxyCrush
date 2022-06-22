@@ -1,0 +1,197 @@
+{
+    "id": "2798e1c0-3c3d-4bf4-9b90-edc9d33c11f4",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 32,
+        "snapHeight": 32,
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "NewLevel0",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "TileSprite",
+            "id": "30c9a26e-0483-48de-a45c-9e1d9ea19e39",
+            "label": "tilespriteBG",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "background"
+            },
+            "originX": 0,
+            "originY": 0,
+            "width": 64,
+            "height": 64
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "ca07ce61-a78b-4f7c-ade7-bf65f5088a5b",
+            "label": "nocollide",
+            "components": [],
+            "tilemapId": "379bac7a-0e88-4afc-9e91-a9974c755928",
+            "layerName": "nocollide",
+            "tilesets": [
+                "level0"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "f2cbff96-effe-4360-ba08-0f12be94a861",
+            "label": "nocollide2",
+            "components": [],
+            "tilemapId": "379bac7a-0e88-4afc-9e91-a9974c755928",
+            "layerName": "nocollide2",
+            "tilesets": [
+                "level0"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "d52a10a6-5602-428f-aa28-e652fc3458aa",
+            "label": "layer",
+            "scope": "CLASS",
+            "components": [],
+            "tilemapId": "379bac7a-0e88-4afc-9e91-a9974c755928",
+            "layerName": "collide",
+            "tilesets": [
+                "level0"
+            ]
+        },
+        {
+            "prefabId": "5eb59c53-23e8-4ff1-8d81-afc9f441bcf9",
+            "id": "a22a4ebe-07d1-4d20-80ae-b21427e9a2ff",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "bullet",
+            "components": [],
+            "x": 324,
+            "y": 1383
+        },
+        {
+            "prefabId": "e689707d-045d-4993-811e-228cd5477db8",
+            "id": "7ad71508-e8aa-4761-8db7-800336d8a7f5",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "bulletOrigin",
+            "scope": "CLASS",
+            "components": [],
+            "x": 279,
+            "y": 1397
+        },
+        {
+            "prefabId": "b3cab0a0-a053-40a7-b9ef-95c9e2185fb1",
+            "id": "ca802f58-eb79-4fc2-b79a-77cb1658f4c2",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "player",
+            "scope": "CLASS",
+            "components": [],
+            "x": 206,
+            "y": 1407
+        },
+        {
+            "prefabId": "0776961a-f2af-4d1c-bed8-a44a35d0d8cc",
+            "id": "fd4947c4-f1fa-41fc-8bf6-22aa3534e6e7",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "brazoderecho",
+            "scope": "CLASS",
+            "components": [],
+            "x": 198,
+            "y": 1370,
+            "nestedPrefabs": []
+        },
+        {
+            "type": "Image",
+            "id": "5b7ba76f-6fbf-4540-bb5f-c68e4e6ee566",
+            "label": "howToPlay",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "howToPlay"
+            },
+            "x": 270,
+            "y": 850
+        },
+        {
+            "type": "Sprite",
+            "id": "41e4236c-0d6d-4998-9acd-9353656f8a99",
+            "label": "gameOver",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "gameOver"
+            },
+            "x": 1014,
+            "y": 1220
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "379bac7a-0e88-4afc-9e91-a9974c755928",
+            "type": "Tilemap",
+            "label": "mapa",
+            "key": "new_level0",
+            "tilesets": [
+                {
+                    "name": "level0",
+                    "imageKey": "level0"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "0e080d9c-0b39-4755-a5d5-57ae5501d356",
+            "label": "doors"
+        },
+        {
+            "id": "a5839e13-79a6-473b-b910-924096033370",
+            "label": "switches",
+            "objectIds": [
+                "9a1b8a13-4e2f-4e74-9b76-aacfaf3b136f"
+            ]
+        },
+        {
+            "id": "5b8b5385-7170-4f04-8368-32349b8524e7",
+            "label": "enemies"
+        },
+        {
+            "id": "162e2fe2-38a7-450b-88ec-186b241d78cc",
+            "label": "platforms"
+        },
+        {
+            "id": "9ebda1ea-a3d2-410b-b328-4358561cbdf7",
+            "label": "coins"
+        },
+        {
+            "id": "b383c0e6-a04f-4afa-b7ac-20a74e4cbe4c",
+            "label": "catapultas"
+        },
+        {
+            "id": "c178e26c-494b-4400-b756-424719a97c29",
+            "label": "revivingPods"
+        },
+        {
+            "id": "31eff47d-130c-4018-bf6a-df9ab7135d98",
+            "label": "tutorials"
+        }
+    ]
+}

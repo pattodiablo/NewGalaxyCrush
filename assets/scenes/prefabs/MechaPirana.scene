@@ -1,0 +1,45 @@
+{
+    "id": "3349c326-9cef-4f4f-80a3-6dce457a3cfe",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "6c450941-ec6d-4615-94b0-6e434963a3a4",
+            "label": "pescadito_instance_10000",
+            "components": [
+                "Physics",
+                "StartAnimation"
+            ],
+            "StartAnimation.animationKey": "movingPirana",
+            "texture": {
+                "key": "mechapirana",
+                "frame": "pescadito instance 10000"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "travelDistance",
+            "label": "travelDistance",
+            "tooltip": "travelDistance",
+            "defValue": 100,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

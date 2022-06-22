@@ -1,0 +1,33 @@
+{
+    "id": "e1306e17-6229-485c-81c5-fb8fe209c8da",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "a92a6690-b59f-4332-98e4-a9461891242b",
+            "label": "heart",
+            "components": [
+                "Physics",
+                "StartAnimation"
+            ],
+            "StartAnimation.animationKey": "heartPump",
+            "texture": {
+                "key": "propsNew",
+                "frame": "CORAZON 2.ai instance 10000"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

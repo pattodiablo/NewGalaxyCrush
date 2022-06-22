@@ -1,0 +1,34 @@
+{
+    "id": "c49232a3-fcf4-4117-b839-94b0211bcad1",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "949e3d26-c92c-4382-815c-8b59664ccad4",
+            "label": "meteorito",
+            "components": [
+                "Physics"
+            ],
+            "Physics.bodyGravity": 150,
+            "texture": {
+                "key": "Meteorito"
+            },
+            "scaleX": 0.35,
+            "scaleY": 0.35
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    }
+}

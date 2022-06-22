@@ -1,0 +1,31 @@
+{
+  "name": "Super Bravo",
+  "short_name": "Super Bravo",
+  "start_url": "index.html",
+  "display_override": ["window-controls-overlay", "minimal-ui"],
+  "display": "fullscreen",
+  "icons": [{
+    "src": "assets/imgs/logo.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#795157",
+  "theme_color": "#795157",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 3000,
+      "launchAutoHide": true,
+      "backgroundColor": "#795157",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": true,
+      "androidSpinnerStyle": "large",
+      "iosSpinnerStyle": "small",
+      "spinnerColor": "#ffffff",
+      "splashFullScreen": true,
+      "splashImmersive": true,
+      "layoutName": "launch_screen",
+      "useDialog": true
+    }
+  }
+}

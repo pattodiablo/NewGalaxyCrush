@@ -1,0 +1,705 @@
+{
+    "anims": [
+        {
+            "key": "supa/roll",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "rueda_animation instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "rueda_animation instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "supa/run",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10009",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 20,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "showOnStart": true
+        },
+        {
+            "key": "supa/walk",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_animation instance 10009",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "supa/idle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "idle_animation instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "idle_animation instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "idle_animation instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "idle_animation instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "supa/die",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "die0000",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "supa/entering",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "enteringDoor instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "enteringDoor instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "enteringDoor instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "enteringDoor instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "supa/drop",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "drop_animation instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "drop_animation instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "drop_animation instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "drop_animation instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "supa/fall",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "cae_animation instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "cae_animation instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "cae_animation instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "cae_animation instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "supa/supaRoll",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "supaRolling instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "supaRolling instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "supa/puff",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "puff0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "puff0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "puff0002",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "supa/fly",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "flying instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "supa/Bite",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "Bravo moordida.ai instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "Bravo moordida.ai instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "Bravo moordida.ai instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "Bravo moordida.ai instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "supa/jetPack",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "jetpack0000",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "jetPackWalk",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "jetpackWalk0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "jetpackWalk0001",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "SupaTouch",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "die0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "die0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "die0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "die0003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 16,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "runDoubleJump",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10009",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 20,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "idleDoubleJump",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "idleDoublejump0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "idleDoublejump0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "idleDoublejump0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "idleDoublejump0003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "fallDoubleJump",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "fallingDoubleJump0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "fallingDoubleJump0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "fallingDoubleJump0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "fallingDoubleJump0003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "walkDoubleJump",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "camina_doubleJump instance 10008",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "supa_hurt",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "bravo_hurt instance 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "bravo_hurt instance 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "newSupaAnimations",
+                    "frame": "bravo_hurt instance 10002",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

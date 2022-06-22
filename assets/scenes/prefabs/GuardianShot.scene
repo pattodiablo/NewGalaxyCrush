@@ -1,0 +1,46 @@
+{
+    "id": "178d2b0e-6608-491c-ac98-64b48155f2e0",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "472d38a0-eb15-485f-a722-b4981708249a",
+            "label": "guardianShot_instancia_10000",
+            "components": [
+                "Physics",
+                "StartAnimation"
+            ],
+            "StartAnimation.animationKey": "guardianShot",
+            "texture": {
+                "key": "TheGuardBoss",
+                "frame": "guardianShot instancia 10000"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    },
+    "prefabProperties": [
+        {
+            "name": "BulletDirection",
+            "label": "BulletDirection",
+            "tooltip": "BulletDirection",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

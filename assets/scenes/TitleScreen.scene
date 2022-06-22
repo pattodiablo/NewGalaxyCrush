@@ -1,0 +1,60 @@
+{
+    "id": "80f0905d-0fb2-47a4-a786-09ec69cd7129",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 176,
+        "snapHeight": 368,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "TitleScreen",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "05ccbbf4-3a23-4be2-bd97-dfb01654c443",
+            "label": "red",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "red"
+            },
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "2d17f468-71f1-46c3-9b59-094eaff56a23",
+            "label": "playBtn",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "playBtn"
+            },
+            "x": 161,
+            "y": 402,
+            "scaleX": 0,
+            "scaleY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "09584a55-79f9-4922-9d50-7b0675031e84",
+            "label": "titleBg",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "title"
+            },
+            "x": 312,
+            "y": 231
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

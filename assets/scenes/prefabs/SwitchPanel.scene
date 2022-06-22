@@ -1,0 +1,46 @@
+{
+    "id": "757564b1-48e3-4c4f-9257-3a1d5bd5505d",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "8eec2e66-2a6a-48ee-b510-ef39f2ca7462",
+            "label": "palanca0000",
+            "components": [
+                "Physics",
+                "PhysicsBody"
+            ],
+            "PhysicsBody.bodyX": -16,
+            "PhysicsBody.bodyWidth": 60,
+            "texture": {
+                "key": "propsNew",
+                "frame": "swtich0000"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "doorID",
+            "label": "doorID",
+            "tooltip": "doorID",
+            "defValue": 1,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

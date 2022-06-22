@@ -1,0 +1,97 @@
+{
+    "id": "d983bda3-3906-4cca-89ee-13f2180c8940",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "334155db-e09d-46b1-8449-911888ee7a60",
+            "label": "container_1",
+            "components": [],
+            "y": -126,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "f4eba57f-f046-4027-b52a-cf807d9dc8e9",
+                    "label": "smallDoor",
+                    "scope": "CLASS",
+                    "components": [
+                        "Physics"
+                    ],
+                    "texture": {
+                        "key": "propsNew",
+                        "frame": "puerta pequeña version 03.ai instance 10000"
+                    },
+                    "y": 126
+                },
+                {
+                    "prefabId": "5b6ba02c-d5c5-44f5-8a22-37d323cdcb27",
+                    "id": "bd32c913-a50d-4967-a26d-5d89042168d3",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "pointerDown",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 2,
+                    "y": 139
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "goToLevel",
+            "label": "goToLevel",
+            "tooltip": "goToLevel",
+            "defValue": "Level1",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "doorID",
+            "label": "doorID",
+            "tooltip": "doorID",
+            "defValue": "1",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "isLocked",
+            "label": "isLocked",
+            "tooltip": "isLocked",
+            "defValue": true,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        },
+        {
+            "name": "showScore",
+            "label": "showScore",
+            "tooltip": "showScore",
+            "defValue": true,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

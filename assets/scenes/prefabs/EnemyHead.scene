@@ -1,0 +1,85 @@
+{
+    "id": "114c3c72-74d2-4014-b587-f3ff6f898778",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "1f4339ad-e78e-4ae2-ac8b-692730aa8d12",
+            "label": "container_1",
+            "components": [],
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "b898c1e6-e2a2-4527-91d2-983a553027e5",
+                    "label": "EnemyHead",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "sector1"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "7ac80bf9-3f75-4a62-a057-738223a3b477",
+                    "label": "EnemyHeadProtected",
+                    "scope": "CLASS",
+                    "components": [
+                        "Physics"
+                    ],
+                    "texture": {
+                        "key": "Sector4"
+                    }
+                },
+                {
+                    "type": "Sprite",
+                    "id": "0f5ee631-cc38-4e3c-9c6a-7578e29dd658",
+                    "label": "crakedHead",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "crakedHead"
+                    },
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "3a34ab77-d04c-4fa5-b152-9c9d979854c7",
+                    "label": "supaHead",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "supaHead"
+                    },
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "99eaf481-3d71-48a2-85c7-80a161ace06e",
+                    "label": "badEyes",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "BADEYES"
+                    },
+                    "y": 16,
+                    "scaleX": 0.23064940474962847,
+                    "scaleY": 0.23064940474962847
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

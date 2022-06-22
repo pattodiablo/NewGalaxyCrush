@@ -1,0 +1,34 @@
+{
+    "id": "50ab7d46-7948-4a1c-8501-5d07540199e1",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "98064961-f270-4f28-8c46-66023f59f008",
+            "label": "energyBullet0000",
+            "components": [
+                "StartAnimation",
+                "Physics"
+            ],
+            "StartAnimation.animationKey": "droneShot",
+            "texture": {
+                "key": "drone",
+                "frame": "energyBullet0000"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    }
+}

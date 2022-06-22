@@ -1,0 +1,54 @@
+{
+    "id": "75d835c0-6224-43cc-87ae-e8b3636c0536",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "8fb74b92-9157-4384-9f3d-66309494fc47",
+            "label": "textInfo",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "textInfo"
+            },
+            "originX": 0,
+            "originY": 0
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    },
+    "prefabProperties": [
+        {
+            "name": "textToDisplay",
+            "label": "textToDisplay",
+            "tooltip": "textToDisplay",
+            "defValue": "Save Sput hurry...",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "activateLater",
+            "label": "activateLater",
+            "tooltip": "activateLater",
+            "defValue": true,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

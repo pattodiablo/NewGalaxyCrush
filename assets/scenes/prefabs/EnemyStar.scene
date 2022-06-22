@@ -1,0 +1,53 @@
+{
+    "id": "cdd007db-866d-4fbd-bd97-b69248587a1d",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "fdc5cbfc-56c7-4780-b759-70153baabd4f",
+            "label": "enemy1",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "enemy1"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "isType1",
+            "label": "isType1",
+            "tooltip": "isType1",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        },
+        {
+            "name": "isType2",
+            "label": "isType2",
+            "tooltip": "isType2",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

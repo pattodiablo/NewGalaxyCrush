@@ -1,0 +1,210 @@
+{
+    "id": "776c9af3-da2a-44e2-8f98-84e3b8919930",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "fd5fdbf4-eb05-4cb4-809d-6822af31dbde",
+            "label": "container_1",
+            "components": [],
+            "y": -183,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "262e5525-c6b9-45a0-b396-5d30c6cb0d61",
+                    "label": "energyPanel",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "energyPanel"
+                    },
+                    "x": 37,
+                    "y": 48
+                },
+                {
+                    "prefabId": "15e3a96e-7f00-47ee-a9e1-4700679c2527",
+                    "id": "f1456c27-43d7-458e-bf27-d894d9aaf274",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "closeBtn",
+                    "components": [],
+                    "x": 150,
+                    "y": -74
+                },
+                {
+                    "prefabId": "52a09b13-ff3c-4cc5-bcb5-80f0a7318637",
+                    "id": "5b8a33c8-779a-460f-85dc-b1139be8d93a",
+                    "unlock": [
+                        "itemValue",
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "heartBtn",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -29,
+                    "y": 34,
+                    "scaleX": 0.9164983142977117,
+                    "scaleY": 0.9164983142977117
+                },
+                {
+                    "type": "Text",
+                    "id": "f12a1b87-da7b-4d8c-9f4b-796c286717b5",
+                    "label": "healthText",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -29,
+                    "y": 62,
+                    "originY": 0,
+                    "text": "10",
+                    "fontFamily": "Arial",
+                    "fontSize": "20px",
+                    "color": "#f9f9f9ff"
+                },
+                {
+                    "prefabId": "0c8d5c2e-a5c7-4a6b-87d9-85fe00f53967",
+                    "id": "1baa8496-8dd7-4e66-9895-07ec74cf2f8a",
+                    "unlock": [
+                        "itemValue",
+                        "x",
+                        "y"
+                    ],
+                    "label": "energyRode",
+                    "scope": "CLASS",
+                    "itemValue": 3,
+                    "components": [],
+                    "x": -29,
+                    "y": -44
+                },
+                {
+                    "prefabId": "d0298590-6f43-4fde-b63f-370ac412ba23",
+                    "id": "02989e6c-faed-4880-bd86-20dfb3628d9d",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "lifeRode",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -29,
+                    "y": 114
+                },
+                {
+                    "type": "Text",
+                    "id": "1db2ce5c-1d8a-4362-90f3-c646b4fe6944",
+                    "label": "energyRodeText",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -29,
+                    "y": -19,
+                    "originY": 0,
+                    "text": "10",
+                    "fontFamily": "Arial",
+                    "fontSize": "20px",
+                    "color": "#f9f9f9ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "44c5d9c2-a994-4884-bc90-a6f7a9798d10",
+                    "label": "lifeRodeText",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -29,
+                    "y": 140,
+                    "originY": 0,
+                    "text": "10",
+                    "fontFamily": "Arial",
+                    "fontSize": "20px",
+                    "color": "#f9f9f9ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "a17d023d-cfe2-4272-a3cd-41e42841e67e",
+                    "label": "explain1",
+                    "components": [],
+                    "y": -36,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Refill Jetpack gas",
+                    "fontSize": "12px"
+                },
+                {
+                    "type": "Text",
+                    "id": "b1f4c6ab-42e5-45b4-9d06-1830f88d0081",
+                    "label": "explain1_1",
+                    "components": [],
+                    "y": -52,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Energy rode",
+                    "fontSize": "12px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Text",
+                    "id": "d06749af-2717-45eb-a2c5-0bc153f75fb5",
+                    "label": "explain1_1_1",
+                    "components": [],
+                    "y": 18,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Life heart",
+                    "fontSize": "12px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Text",
+                    "id": "c1addaac-cbee-4e12-817d-1d2910df3b75",
+                    "label": "explain1_2",
+                    "components": [],
+                    "y": 34,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Refill one life bar",
+                    "fontSize": "12px"
+                },
+                {
+                    "type": "Text",
+                    "id": "bdd744e4-1568-4750-a96e-6f120f4582d0",
+                    "label": "explain1_1_1_1",
+                    "components": [],
+                    "y": 104,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Life bar",
+                    "fontSize": "12px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Text",
+                    "id": "bc3ab90e-7fb1-479a-ad29-4a99468cb968",
+                    "label": "explain1_2_1",
+                    "components": [],
+                    "y": 120,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Adds one life bar",
+                    "fontSize": "12px"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "132851fc-10a4-452c-a832-422ff1f6d7b1",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "253ecf7e-fe6c-4647-b693-0f6bf7a96064",
+            "label": "sideDoor_instance_10000",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "propsNew",
+                "frame": "sideDoor instance 10000"
+            },
+            "tintTopLeft": "#ee3a3a",
+            "tintTopRight": "#ea2f2f",
+            "tintBottomLeft": "#f77a7a",
+            "tintBottomRight": "#fb9e39"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "LockedBy",
+            "label": "LockedBy",
+            "tooltip": "LockedBy",
+            "defValue": "1",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "doorID",
+            "label": "doorID",
+            "tooltip": "doorID",
+            "defValue": "1",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        }
+    ]
+}

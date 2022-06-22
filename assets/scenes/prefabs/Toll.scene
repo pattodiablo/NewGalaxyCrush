@@ -1,0 +1,58 @@
+{
+    "id": "0b6a9364-c0e7-4115-8dc4-c0a13d50343a",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "17f15285-447c-4997-bb91-3494c15a8921",
+            "label": "toll_instance_10000",
+            "components": [
+                "Physics",
+                "PhysicsBody",
+                "StartAnimation"
+            ],
+            "PhysicsBody.bodyY": 10,
+            "PhysicsBody.bodyHeight": 20,
+            "StartAnimation.animationKey": "TollIdle",
+            "texture": {
+                "key": "propsNew2",
+                "frame": "Symbol 33 instance 10006"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "tollCost",
+            "label": "tollCost",
+            "tooltip": "tollCost",
+            "defValue": 200,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "LockId",
+            "label": "LockId",
+            "tooltip": "LockId",
+            "defValue": "1",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        }
+    ]
+}

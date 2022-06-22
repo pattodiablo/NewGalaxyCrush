@@ -1,0 +1,55 @@
+{
+    "id": "93b28f2d-f948-468c-a24f-7260b651587d",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "54d81ac5-e878-444e-a18c-6b0a09e827a2",
+            "label": "platform0000",
+            "components": [
+                "Physics",
+                "StartAnimation"
+            ],
+            "StartAnimation.animationKey": "platform1",
+            "texture": {
+                "key": "propsNew",
+                "frame": "Symbol 9 instance 10000"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "distance",
+            "label": "distance",
+            "tooltip": "distance",
+            "defValue": 100,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "timeTravel",
+            "label": "timeTravel",
+            "tooltip": "timeTravel",
+            "defValue": 6000,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

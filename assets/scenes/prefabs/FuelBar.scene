@@ -1,0 +1,65 @@
+{
+    "id": "4a273468-cd9b-438d-806b-d4de119366a3",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "ad7a7f1b-5cd4-40f2-b9a6-1fa8e247c704",
+            "label": "container_1",
+            "components": [],
+            "x": -64,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "db238067-ef81-4126-ae73-139e8386a87b",
+                    "label": "lifeBarfillBg",
+                    "components": [],
+                    "texture": {
+                        "key": "lifeBarfillBg"
+                    },
+                    "x": 90,
+                    "y": -8
+                },
+                {
+                    "type": "Image",
+                    "id": "f0403379-fe55-4944-b621-7bb7fa0555a0",
+                    "label": "lifeBarfill",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "lifeBarfill"
+                    },
+                    "x": 17,
+                    "y": -9,
+                    "originX": 0
+                },
+                {
+                    "type": "Sprite",
+                    "id": "85e767db-69a9-4bce-9b88-531f9f6d0bca",
+                    "label": "fuelBarFrame",
+                    "components": [],
+                    "texture": {
+                        "key": "fuelBarFrame"
+                    },
+                    "x": 90,
+                    "y": -9
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

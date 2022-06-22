@@ -1,0 +1,86 @@
+{
+    "id": "dab987c7-66b2-4cab-9b39-3de396b93ee0",
+    "sceneType": "PREFAB",
+    "settings": {
+        "snapWidth": 145,
+        "snapHeight": 40,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "61d3a7e7-914a-478c-b488-6cbd2a10a6fd",
+            "label": "container_1",
+            "components": [],
+            "y": -34,
+            "scaleX": 0.8,
+            "scaleY": 0.8,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "1ad986c2-dc4c-45b8-99b3-0f92e1ded0e4",
+                    "label": "energyPanel",
+                    "components": [
+                        "FixedToCamera"
+                    ],
+                    "texture": {
+                        "key": "energyPanel"
+                    },
+                    "y": 34
+                },
+                {
+                    "type": "Sprite",
+                    "id": "6a4c09c1-5512-4ee9-b88c-785b5c6611a5",
+                    "label": "yesBtn",
+                    "scope": "CLASS",
+                    "components": [
+                        "FixedToCamera"
+                    ],
+                    "texture": {
+                        "key": "yesBtn"
+                    },
+                    "x": -4,
+                    "y": 41
+                },
+                {
+                    "type": "Sprite",
+                    "id": "1f52919e-e970-4aad-8631-984923253b3c",
+                    "label": "noBtn",
+                    "scope": "CLASS",
+                    "components": [
+                        "FixedToCamera"
+                    ],
+                    "texture": {
+                        "key": "noBtn"
+                    },
+                    "x": -1,
+                    "y": 110
+                },
+                {
+                    "type": "Text",
+                    "id": "413f1086-9576-4e43-b0a0-f3f5dccc7d3a",
+                    "label": "text",
+                    "components": [
+                        "FixedToCamera"
+                    ],
+                    "x": -102,
+                    "y": -56,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Are you sure?\nAll data will be lost",
+                    "align": "center"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "id": "cbd440a8-d749-4f6a-9443-a8fb63b526b1",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0434f32b-682c-45bc-9b34-036da0c2d3ad",
+            "label": "container_1",
+            "components": [],
+            "y": -106,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "c5aec6a9-09ac-4f49-aae0-b1be93db870b",
+                    "label": "stomperPipe",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "stomperPipe"
+                    },
+                    "y": 83,
+                    "scaleY": 1.5,
+                    "originY": 1
+                },
+                {
+                    "prefabId": "cead76a3-38d5-4db4-bdd8-987b1cb7b8be",
+                    "id": "99b21702-52f4-472f-a8f4-9d100f6412fa",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "mainStomp",
+                    "scope": "CLASS",
+                    "components": [],
+                    "y": 106
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    },
+    "prefabProperties": [
+        {
+            "name": "retardo",
+            "label": "retardo",
+            "tooltip": "retardo",
+            "defValue": 1000,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

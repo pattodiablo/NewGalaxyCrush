@@ -1,0 +1,43 @@
+{
+    "id": "52a09b13-ff3c-4cc5-bcb5-80f0a7318637",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "7da5a3b5-8943-414a-a22a-25da87e8a49b",
+            "label": "heart",
+            "components": [
+                "FixedToCamera"
+            ],
+            "texture": {
+                "key": "propsNew",
+                "frame": "health instance 10000"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "itemValue",
+            "label": "itemValue",
+            "tooltip": "itemValue",
+            "defValue": 50,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

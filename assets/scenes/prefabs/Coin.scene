@@ -1,0 +1,72 @@
+{
+    "id": "e6b408df-ad40-4a13-b273-23a00575ada5",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "4a6d2af1-c685-4355-93d3-93353c55d418",
+            "label": "coin0000",
+            "components": [
+                "Physics",
+                "StartAnimation",
+                "PhysicsBody"
+            ],
+            "StartAnimation.animationKey": "ring",
+            "PhysicsBody.bodyX": 13,
+            "PhysicsBody.bodyY": 6,
+            "PhysicsBody.bodyWidth": 20,
+            "PhysicsBody.bodyHeight": 20,
+            "texture": {
+                "key": "propsNew",
+                "frame": "Aro de Luz instance 10040"
+            },
+            "originX": 0,
+            "originY": 0
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "enableSound",
+            "label": "enableSound",
+            "tooltip": "enableSound",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        },
+        {
+            "name": "hasGravity",
+            "label": "hasGravity",
+            "tooltip": "hasGravity",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        },
+        {
+            "name": "isEnemyCoin",
+            "label": "isEnemyCoin",
+            "tooltip": "isEnemyCoin",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

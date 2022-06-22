@@ -1,0 +1,48 @@
+{
+    "id": "b772f3cd-be85-4685-b964-8294fd3e3ab5",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "d728fb11-3b17-49ee-b266-bdbb9818fabb",
+            "label": "catapulta",
+            "components": [
+                "Physics",
+                "PhysicsBody",
+                "StartAnimation"
+            ],
+            "PhysicsBody.bodyY": 24,
+            "PhysicsBody.bodyHeight": 10,
+            "StartAnimation.animationKey": "catapultaOff",
+            "texture": {
+                "key": "propsNew",
+                "frame": "catpultaOff instance 10000"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "power",
+            "label": "power",
+            "tooltip": "power",
+            "defValue": 1000,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

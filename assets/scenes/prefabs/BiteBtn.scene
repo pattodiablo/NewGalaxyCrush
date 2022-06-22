@@ -1,0 +1,42 @@
+{
+    "id": "5feae915-9845-4902-a580-4188586f6779",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "4f68faa7-f514-4a13-af39-9827b4b3a0c7",
+            "label": "BiteBtn",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "propsNew",
+                "frame": "Symbol 32 instance 10000"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "itemValue",
+            "label": "itemValue",
+            "tooltip": "itemValue",
+            "defValue": 10,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

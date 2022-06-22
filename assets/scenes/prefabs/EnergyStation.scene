@@ -1,0 +1,65 @@
+{
+    "id": "1925181b-f823-418a-823d-bb8741a2e2be",
+    "sceneType": "PREFAB",
+    "settings": {
+        "snapWidth": 47,
+        "snapHeight": 40,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "f9df3b7e-5ad2-46fa-bafe-5ef0115fbde5",
+            "label": "container_1",
+            "components": [],
+            "y": -72,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "163fb1ee-c24a-4371-a975-10212e28da60",
+                    "label": "energyStation",
+                    "scope": "CLASS",
+                    "components": [
+                        "Physics",
+                        "PhysicsBody",
+                        "StartAnimation"
+                    ],
+                    "PhysicsBody.bodyY": 50,
+                    "PhysicsBody.bodyHeight": 20,
+                    "StartAnimation.animationKey": "powerStationEmpty",
+                    "texture": {
+                        "key": "propsNew",
+                        "frame": "Symbol 7 instance 10000"
+                    },
+                    "y": 72
+                },
+                {
+                    "prefabId": "5b6ba02c-d5c5-44f5-8a22-37d323cdcb27",
+                    "id": "e2c0f2c7-da3b-4fcd-84f6-0e2c7a5021f3",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "angle"
+                    ],
+                    "label": "pointerDown",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -2,
+                    "y": -4,
+                    "angle": -180
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    }
+}

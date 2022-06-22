@@ -1,0 +1,307 @@
+{
+    "anims": [
+        {
+            "key": "idlePlayer",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "playerAnimations",
+                    "frame": "idle instancia 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "idle instancia 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "idle instancia 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "idle instancia 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "idle instancia 10004",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "showOnStart": true
+        },
+        {
+            "key": "walkingPlayer",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "playerAnimations",
+                    "frame": "run instancia 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "run instancia 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "run instancia 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "run instancia 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "run instancia 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "run instancia 10005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "run instancia 10006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "run instancia 10007",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 15,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "showOnStart": true
+        },
+        {
+            "key": "deathPlayer",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "playerAnimations",
+                    "frame": "death instancia 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "death instancia 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "death instancia 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "death instancia 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "death instancia 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "death instancia 10005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "death instancia 10006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "death instancia 10007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "death instancia 10008",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "almostDeath",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "playerAnimations",
+                    "frame": "death2 instancia 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "death2 instancia 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "death2 instancia 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "death2 instancia 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "death2 instancia 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "death2 instancia 10005",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "explodeAnim",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "playerAnimations",
+                    "frame": "explotion instancia 10013",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 32,
+            "skipMissedFrames": true,
+            "repeat": -1
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

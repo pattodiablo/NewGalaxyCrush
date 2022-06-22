@@ -1,0 +1,30 @@
+{
+    "id": "d9048698-9f0c-4294-a831-c6dfec53f0a5",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "fe910486-1c79-4422-8d49-6c2d603ac581",
+            "label": "eggBomb",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "eggBomb"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

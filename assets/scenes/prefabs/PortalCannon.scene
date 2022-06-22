@@ -1,0 +1,46 @@
+{
+    "id": "c5a4c8f6-a934-468d-9cd1-5b3c0d4501f8",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "e75d25b7-4d74-406c-9ce5-fb3be9156b9c",
+            "label": "portelCannon",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "targetRing"
+            },
+            "scaleX": 0.7,
+            "scaleY": 0.7,
+            "tintBottomLeft": "#fed5d5"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "IsFirstCannon",
+            "label": "IsFirstCannon",
+            "tooltip": "IsFirstCannon",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

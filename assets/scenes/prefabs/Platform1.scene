@@ -1,0 +1,65 @@
+{
+    "id": "3c2e0a0e-b56d-4b75-b43e-f2475de3560b",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "54d81ac5-e878-444e-a18c-6b0a09e827a2",
+            "label": "platform0000",
+            "components": [
+                "Physics",
+                "StartAnimation"
+            ],
+            "StartAnimation.animationKey": "platform2",
+            "texture": {
+                "key": "propsNew",
+                "frame": "Symbol 10 instance 10000"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "distance",
+            "label": "distance",
+            "tooltip": "distance",
+            "defValue": 100,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "timeTravel",
+            "label": "timeTravel",
+            "tooltip": "timeTravel",
+            "defValue": 6000,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "isHorizontal",
+            "label": "isHorizontal",
+            "tooltip": "isHorizontal",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

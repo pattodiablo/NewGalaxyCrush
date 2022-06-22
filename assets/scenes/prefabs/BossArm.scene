@@ -1,0 +1,46 @@
+{
+    "id": "b6872e16-df53-45a4-88b6-0012dd1a5176",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "1d6b2f1f-c3b9-4784-9641-640e1b1fbdb3",
+            "label": "sector3_1_1",
+            "components": [
+                "Physics",
+                "PhysicsBody"
+            ],
+            "PhysicsBody.bodyWidth": 60,
+            "texture": {
+                "key": "Sector3"
+            },
+            "scaleX": -1
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "brazoOpuesto",
+            "label": "brazoOpuesto",
+            "tooltip": "brazoOpuesto",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

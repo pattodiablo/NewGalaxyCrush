@@ -1,0 +1,30 @@
+{
+    "id": "94065d82-d3b0-4eb8-b901-a3fd8c176e5a",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "20983104-9041-4d43-900d-80a4e7989762",
+            "label": "supaJet",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "jetpackSuitOffline"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

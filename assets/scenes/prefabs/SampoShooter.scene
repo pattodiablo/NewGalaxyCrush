@@ -1,0 +1,80 @@
+{
+    "id": "90b200d8-00c8-4e64-841c-42791d7bc769",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "834d6a7d-99b8-4f35-be88-d7f1e5737ceb",
+            "label": "sampo_walking0001",
+            "components": [
+                "Physics",
+                "PhysicsBody",
+                "StartAnimation"
+            ],
+            "Physics.bodyGravity": 500,
+            "PhysicsBody.bodyWidth": 25,
+            "PhysicsBody.bodyHeight": 40,
+            "StartAnimation.animationKey": "sampo/newWalk",
+            "texture": {
+                "key": "sampoShooter",
+                "frame": "newSampo  instance 10000"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    },
+    "prefabProperties": [
+        {
+            "name": "bulletEnable",
+            "label": "bulletEnable",
+            "tooltip": "bulletEnable",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        },
+        {
+            "name": "RevivingPodID",
+            "label": "RevivingPodID",
+            "tooltip": "RevivingPodID",
+            "defValue": "pod1",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "EnemyID",
+            "label": "EnemyID",
+            "tooltip": "EnemyID",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "travelDistance",
+            "label": "travelDistance",
+            "tooltip": "travelDistance",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

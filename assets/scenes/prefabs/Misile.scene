@@ -1,0 +1,32 @@
+{
+    "id": "5aa80ba6-889a-4b80-81df-0d5f4ba5de86",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "707e1929-c04b-4f06-b4c2-da7513c10c4e",
+            "label": "misileOff_instance_10000",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "misile",
+                "frame": "misileOff instance 20000"
+            },
+            "originX": 1
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "id": "d0298590-6f43-4fde-b63f-370ac412ba23",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "10da6ce5-1cf1-425d-afdc-3b1c0cea7148",
+            "label": "lifeRode",
+            "components": [
+                "FixedToCamera"
+            ],
+            "texture": {
+                "key": "LifeRode"
+            },
+            "scaleX": 0.8479936060645157,
+            "scaleY": 0.8479936060645157
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "itemValue",
+            "label": "itemValue",
+            "tooltip": "itemValue",
+            "defValue": 500,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

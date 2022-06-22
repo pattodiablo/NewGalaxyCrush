@@ -1,0 +1,53 @@
+{
+    "id": "6afa43fe-4a45-41e6-9689-146c20a9cf1c",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "a7785df2-e212-42cb-8490-01916859817b",
+            "label": "upgradeHalo",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "upgradeHalo"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    },
+    "prefabProperties": [
+        {
+            "name": "isDoubleJump",
+            "label": "isDoubleJump",
+            "tooltip": "isDoubleJump",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        },
+        {
+            "name": "isCannonStrike",
+            "label": "isCannonStrike",
+            "tooltip": "isCannonStrike",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

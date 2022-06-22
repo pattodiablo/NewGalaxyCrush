@@ -1,0 +1,31 @@
+{
+    "id": "e2d7a54c-a5f1-492e-920c-60b02a6e94de",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "495fe688-2d27-4fa0-9a8c-80d65cf22800",
+            "label": "cannonRoll",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "newSupaAnimations",
+                "frame": "rueda_animation instance 10000"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

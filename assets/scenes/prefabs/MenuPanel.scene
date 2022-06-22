@@ -1,0 +1,85 @@
+{
+    "id": "a97f7a76-5482-42e6-aad6-52b05db1fe59",
+    "sceneType": "PREFAB",
+    "settings": {
+        "snapWidth": 145,
+        "snapHeight": 40,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "61d3a7e7-914a-478c-b488-6cbd2a10a6fd",
+            "label": "container_1",
+            "components": [],
+            "y": -34,
+            "scaleX": 0.8,
+            "scaleY": 0.8,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "1ad986c2-dc4c-45b8-99b3-0f92e1ded0e4",
+                    "label": "energyPanel",
+                    "components": [
+                        "FixedToCamera"
+                    ],
+                    "texture": {
+                        "key": "energyPanel"
+                    },
+                    "y": 34
+                },
+                {
+                    "type": "Sprite",
+                    "id": "48b25a81-bd93-45f1-94c5-af700f1dbf0a",
+                    "label": "musicBtn",
+                    "scope": "CLASS",
+                    "components": [
+                        "FixedToCamera"
+                    ],
+                    "texture": {
+                        "key": "musicBtn"
+                    },
+                    "y": -41
+                },
+                {
+                    "type": "Sprite",
+                    "id": "88331dcf-97e4-49f5-bcaa-5fbc3448b91e",
+                    "label": "fxBtn",
+                    "scope": "CLASS",
+                    "components": [
+                        "FixedToCamera"
+                    ],
+                    "texture": {
+                        "key": "fxBtn"
+                    },
+                    "x": 1,
+                    "y": 28
+                },
+                {
+                    "type": "Sprite",
+                    "id": "aa17a4a5-6af5-4e6a-a480-bec5e3dcebef",
+                    "label": "howToBtn",
+                    "scope": "CLASS",
+                    "components": [
+                        "FixedToCamera"
+                    ],
+                    "texture": {
+                        "key": "howToBtn"
+                    },
+                    "x": 1,
+                    "y": 104
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

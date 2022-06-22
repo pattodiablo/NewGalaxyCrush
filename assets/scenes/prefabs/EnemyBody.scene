@@ -1,0 +1,88 @@
+{
+    "id": "51024170-1d68-485a-b38f-a1e37612b2c3",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 320,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "52820632-687a-43c4-8cb1-903d8cacfc46",
+            "label": "container_1",
+            "components": [],
+            "x": -17,
+            "y": -59,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "c6caca1d-2bda-4aa8-9841-92577aa6f9ae",
+                    "label": "EnemyBody",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "sector3"
+                    },
+                    "x": 17,
+                    "y": 59
+                },
+                {
+                    "prefabId": "114c3c72-74d2-4014-b587-f3ff6f898778",
+                    "id": "6f4ddf85-f776-45a1-bf36-83ec62995858",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "EnemyHead",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 19,
+                    "y": -48,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "b6872e16-df53-45a4-88b6-0012dd1a5176",
+                    "id": "c6d24a50-2073-493a-b4f6-24a9ac76732e",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "LeftArm",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -184,
+                    "y": 129
+                },
+                {
+                    "prefabId": "b6872e16-df53-45a4-88b6-0012dd1a5176",
+                    "id": "db3667fe-6c6d-428c-8bd8-8a8432048bc8",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "flipX",
+                        "flipY",
+                        "brazoOpuesto"
+                    ],
+                    "label": "RightArm",
+                    "scope": "CLASS",
+                    "brazoOpuesto": true,
+                    "components": [],
+                    "x": 222,
+                    "y": 128,
+                    "flipX": true,
+                    "flipY": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

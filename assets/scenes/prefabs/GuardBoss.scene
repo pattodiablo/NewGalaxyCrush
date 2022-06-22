@@ -1,0 +1,91 @@
+{
+    "id": "c812057b-6b17-4fd2-9f6d-b8c03b50c9dc",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "70519436-c836-48ba-b2e8-aebf9e6f620b",
+            "label": "idle0000",
+            "components": [
+                "Physics",
+                "PhysicsBody",
+                "StartAnimation"
+            ],
+            "Physics.bodyGravity": 500,
+            "PhysicsBody.bodyY": 100,
+            "PhysicsBody.bodyHeight": 100,
+            "StartAnimation.animationKey": "guardianIdle",
+            "texture": {
+                "key": "TheGuardBoss",
+                "frame": "idle0000"
+            },
+            "x": 2,
+            "y": 1
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "bulletEnable",
+            "label": "bulletEnable",
+            "tooltip": "bulletEnable",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        },
+        {
+            "name": "RevivingPodID",
+            "label": "RevivingPodID",
+            "tooltip": "RevivingPodID",
+            "defValue": "pod1",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "EnemyID",
+            "label": "EnemyID",
+            "tooltip": "EnemyID",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "travelDistance",
+            "label": "travelDistance",
+            "tooltip": "travelDistance",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "ThingToDrop",
+            "label": "ThingToDrop",
+            "tooltip": "ThingToDrop",
+            "defValue": "Cart",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        }
+    ]
+}
