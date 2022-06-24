@@ -2,23 +2,9 @@
     "section1": {
         "files": [
             {
-                "url": [
-                    "assets/scenes/prefabs/AlertSign.js"
-                ],
-                "type": "scripts",
-                "key": "AlertSign"
-            },
-            {
                 "url": "assets/images/arrow.png",
                 "type": "image",
                 "key": "arrow"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/Arrow.js"
-                ],
-                "type": "scripts",
-                "key": "Arrow"
             },
             {
                 "url": "assets/images/background.png",
@@ -34,23 +20,6 @@
                 "url": "assets/images/bluelight.png",
                 "type": "image",
                 "key": "bluelight"
-            },
-            {
-                "url": "assets/images/brazoderecho.png",
-                "type": "image",
-                "key": "brazoderecho"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/BrazoDerecho.js"
-                ],
-                "type": "scripts",
-                "key": "BrazoDerecho"
-            },
-            {
-                "url": "assets/images/brazoizquierdo.png",
-                "type": "image",
-                "key": "brazoizquierdo"
             },
             {
                 "url": "assets/images/bullet.png",
@@ -73,42 +42,9 @@
                 "key": "bulletB"
             },
             {
-                "url": [
-                    "assets/scenes/prefabs/BulletOrigin.js"
-                ],
-                "type": "scripts",
-                "key": "BulletOrigin"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/CannonRoll.js"
-                ],
-                "type": "scripts",
-                "key": "CannonRoll"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/Cart.js"
-                ],
-                "type": "scripts",
-                "key": "Cart"
-            },
-            {
                 "url": "assets/images/closeBtn.png",
                 "type": "image",
                 "key": "closeBtn"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/CloseBtn.js"
-                ],
-                "type": "scripts",
-                "key": "CloseBtn"
-            },
-            {
-                "url": "assets/scenes/prefabs/Coin.js",
-                "type": "script",
-                "key": "Coin"
             },
             {
                 "url": "assets/images/coinDisplay.png",
@@ -116,37 +52,9 @@
                 "key": "coinDisplay"
             },
             {
-                "url": [
-                    "assets/scenes/prefabs/CyberPigeon.js"
-                ],
-                "type": "scripts",
-                "key": "CyberPigeon_1"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/DoubleJumpBtnBuy.js"
-                ],
-                "type": "scripts",
-                "key": "DoubleJumpBtnBuy"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/DroneShot.js"
-                ],
-                "type": "scripts",
-                "key": "DroneShot"
-            },
-            {
                 "url": "assets/sprites/wall.png",
                 "type": "image",
                 "key": "emptyWall"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/EmptyWall.js"
-                ],
-                "type": "scripts",
-                "key": "EmptyWall"
             },
             {
                 "url": "assets/images/enemy1.png",
@@ -159,30 +67,9 @@
                 "key": "enemy2"
             },
             {
-                "url": [
-                    "assets/scenes/prefabs/EnemyStar.js"
-                ],
-                "type": "scripts",
-                "key": "EnemyStar"
-            },
-            {
                 "url": "assets/images/energyPanel.png",
                 "type": "image",
                 "key": "energyPanel"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/EnergyPanel.js"
-                ],
-                "type": "scripts",
-                "key": "EnergyPanel"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/EnergyRode.js"
-                ],
-                "type": "scripts",
-                "key": "EnergyRode"
             },
             {
                 "url": [
@@ -199,31 +86,10 @@
                 "key": "EventComponent"
             },
             {
-                "url": [
-                    "assets/scenes/prefabs/ExitJetPackBtn.js"
-                ],
-                "type": "scripts",
-                "key": "ExitJetPackBtn"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/Explotion.js"
-                ],
-                "type": "scripts",
-                "key": "Explotion"
-            },
-            {
                 "atlasURL": "assets/atlas/flares.json",
                 "textureURL": "assets/atlas/flares.png",
                 "type": "atlas",
                 "key": "flares"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/FuelBar.js"
-                ],
-                "type": "scripts",
-                "key": "FuelBar"
             },
             {
                 "url": "assets/images/fuelBarFrame.png",
@@ -241,163 +107,9 @@
                 "key": "gameOver"
             },
             {
-                "url": [
-                    "assets/audio/fx/GGJ2022_destroy01.mp3"
-                ],
-                "type": "audio",
-                "key": "GGJ2022_destroy01"
-            },
-            {
-                "url": [
-                    "assets/audio/music/GGJ2022_gameover01.mp3"
-                ],
-                "type": "audio",
-                "key": "GGJ2022_gameover01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/GGJ2022_hurt01.mp3"
-                ],
-                "type": "audio",
-                "key": "GGJ2022_hurt01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/GGJ2022_jump01.mp3"
-                ],
-                "type": "audio",
-                "key": "GGJ2022_jump01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/GGJ2022_jump02.mp3"
-                ],
-                "type": "audio",
-                "key": "GGJ2022_jump02"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/GGJ2022_jump03.mp3"
-                ],
-                "type": "audio",
-                "key": "GGJ2022_jump03"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/GGJ2022_laser01.mp3"
-                ],
-                "type": "audio",
-                "key": "GGJ2022_laser01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/GGJ2022_laser02.mp3"
-                ],
-                "type": "audio",
-                "key": "GGJ2022_laser02"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/GGJ2022_monsterhurt01.mp3"
-                ],
-                "type": "audio",
-                "key": "GGJ2022_monsterhurt01"
-            },
-            {
-                "url": [
-                    "assets/audio/music/GGJ2022_ost01.mp3"
-                ],
-                "type": "audio",
-                "key": "GGJ2022_ost01"
-            },
-            {
-                "url": [
-                    "assets/audio/music/GGJ2022_ost02.mp3"
-                ],
-                "type": "audio",
-                "key": "GGJ2022_ost02"
-            },
-            {
-                "url": [
-                    "assets/audio/music/GGJ2022_ost03.mp3"
-                ],
-                "type": "audio",
-                "key": "GGJ2022_ost03"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/GGJ2022_switchweapon01.mp3"
-                ],
-                "type": "audio",
-                "key": "GGJ2022_switchweapon01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/GGJ2022_switchweapon02.mp3"
-                ],
-                "type": "audio",
-                "key": "GGJ2022_switchweapon02"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/GGJ2022_walk01.mp3"
-                ],
-                "type": "audio",
-                "key": "GGJ2022_walk01"
-            },
-            {
-                "url": [
-                    "assets/audio/fx/GGJ2022_walk02.mp3"
-                ],
-                "type": "audio",
-                "key": "GGJ2022_walk02"
-            },
-            {
                 "url": "assets/images/gotoLevelWall.png",
                 "type": "image",
                 "key": "gotoLevelWall"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/GotoLevelWall.js"
-                ],
-                "type": "scripts",
-                "key": "GotoLevelWall"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/GuardianShot.js"
-                ],
-                "type": "scripts",
-                "key": "GuardianShot"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/Heart.js"
-                ],
-                "type": "scripts",
-                "key": "Heart"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/HeartBtn.js"
-                ],
-                "type": "scripts",
-                "key": "HeartBtn"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/hit1.js"
-                ],
-                "type": "scripts",
-                "key": "hit1"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/hit3.js"
-                ],
-                "type": "scripts",
-                "key": "hit3"
             },
             {
                 "url": "assets/images/howToBtn.png",
@@ -445,84 +157,14 @@
                 "key": "lifepanel"
             },
             {
-                "url": [
-                    "assets/scenes/prefabs/LifePanel.js"
-                ],
-                "type": "scripts",
-                "key": "LifePanel"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/LifeRode.js"
-                ],
-                "type": "scripts",
-                "key": "LifeRode_1"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/LightBeam.js"
-                ],
-                "type": "scripts",
-                "key": "LightBeam"
-            },
-            {
                 "url": "assets/images/lightBean.png",
                 "type": "image",
                 "key": "lightBean"
             },
             {
-                "url": [
-                    "assets/scenes/prefabs/MainEntrance.js"
-                ],
-                "type": "scripts",
-                "key": "MainEntrance"
-            },
-            {
                 "url": "assets/images/menuBtn.png",
                 "type": "image",
                 "key": "menuBtn"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/MenuBtn.js"
-                ],
-                "type": "scripts",
-                "key": "MenuBtn"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/MenuPanel.js"
-                ],
-                "type": "scripts",
-                "key": "MenuPanel"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/Meteorito.js"
-                ],
-                "type": "scripts",
-                "key": "Meteorito_1"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/Mina.js"
-                ],
-                "type": "scripts",
-                "key": "Mina"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/Misile.js"
-                ],
-                "type": "scripts",
-                "key": "Misile"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/Misile_Vertical.js"
-                ],
-                "type": "scripts",
-                "key": "Misile_Vertical"
             },
             {
                 "url": "assets/images/musicBtn.png",
@@ -540,35 +182,9 @@
                 "key": "new_level0"
             },
             {
-                "url": "assets/maps/new_level0A.json",
-                "type": "tilemapTiledJSON",
-                "key": "new_level0A"
-            },
-            {
-                "url": "assets/maps/new_level0B.json",
-                "type": "tilemapTiledJSON",
-                "key": "new_level0B"
-            },
-            {
-                "url": "assets/maps/new_level0C.json",
-                "type": "tilemapTiledJSON",
-                "key": "new_level0C"
-            },
-            {
-                "url": "assets/maps/new_level0D.json",
-                "type": "tilemapTiledJSON",
-                "key": "new_level0D"
-            },
-            {
                 "url": "assets/scenes/NewLevel0.js",
                 "type": "sceneFile",
                 "key": "NewLevel0"
-            },
-            {
-                "atlasURL": "assets/atlas/newSupaAnimations.json",
-                "textureURL": "assets/atlas/newSupaAnimations.png",
-                "type": "atlas",
-                "key": "newSupaAnimations"
             },
             {
                 "url": "assets/newSupaAnimations.json",
@@ -586,13 +202,6 @@
                 "key": "playBtn"
             },
             {
-                "url": [
-                    "assets/scenes/Player.js"
-                ],
-                "type": "scripts",
-                "key": "Player"
-            },
-            {
                 "url": "assets/PlayerAnimation.json",
                 "type": "animation",
                 "key": "PlayerAnimation"
@@ -604,23 +213,9 @@
                 "key": "playerAnimations"
             },
             {
-                "url": [
-                    "assets/scenes/prefabs/PlayerBullet.js"
-                ],
-                "type": "scripts",
-                "key": "PlayerBullet"
-            },
-            {
                 "url": "assets/images/pointerArrow.png",
                 "type": "image",
                 "key": "pointerArrow"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/Poste.js"
-                ],
-                "type": "scripts",
-                "key": "Poste"
             },
             {
                 "url": "assets/propAnimations.json",
@@ -634,31 +229,6 @@
                 "key": "propsNew"
             },
             {
-                "atlasURL": "assets/atlas/propsNew2.json",
-                "textureURL": "assets/atlas/propsNew2.png",
-                "type": "atlas",
-                "key": "propsNew2"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/ProxySpyke.js"
-                ],
-                "type": "scripts",
-                "key": "ProxySpyke"
-            },
-            {
-                "url": "assets/images/readyText.png",
-                "type": "image",
-                "key": "readyText"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/ReadyText.js"
-                ],
-                "type": "scripts",
-                "key": "ReadyText"
-            },
-            {
                 "url": "assets/images/red.png",
                 "type": "image",
                 "key": "red"
@@ -669,108 +239,14 @@
                 "key": "reviveStripe"
             },
             {
-                "url": [
-                    "assets/scenes/prefabs/Ring.js"
-                ],
-                "type": "scripts",
-                "key": "Ring"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/SampoBullet.js"
-                ],
-                "type": "scripts",
-                "key": "SampoBullet"
-            },
-            {
                 "url": "assets/images/shadowGeneral.png",
                 "type": "image",
                 "key": "shadowGeneral"
             },
             {
-                "url": [
-                    "assets/scenes/prefabs/SmallDoor.js"
-                ],
-                "type": "scripts",
-                "key": "SmallDoor"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/StarEarn.js"
-                ],
-                "type": "scripts",
-                "key": "StarEarn"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/SupaBiteBtn.js"
-                ],
-                "type": "scripts",
-                "key": "SupaBiteBtn"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/SupaJet.js"
-                ],
-                "type": "scripts",
-                "key": "SupaJet"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/SupaPoiner.js"
-                ],
-                "type": "scripts",
-                "key": "SupaPoiner"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/SupaShotBtn.js"
-                ],
-                "type": "scripts",
-                "key": "SupaShotBtn"
-            },
-            {
-                "url": "assets/images/supaTitle.png",
-                "type": "image",
-                "key": "supaTitle"
-            },
-            {
-                "url": "assets/images/title.png",
-                "type": "image",
-                "key": "title"
-            },
-            {
                 "url": "assets/scenes/TitleScreen.js",
                 "type": "sceneFile",
                 "key": "TitleScreen"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/UpgradeHalo.js"
-                ],
-                "type": "scripts",
-                "key": "UpgradeHalo"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/WallBtn.js"
-                ],
-                "type": "scripts",
-                "key": "WallBtn"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/wallText.js"
-                ],
-                "type": "scripts",
-                "key": "wallText"
-            },
-            {
-                "url": [
-                    "assets/scenes/prefabs/Warning.js"
-                ],
-                "type": "scripts",
-                "key": "Warning"
             },
             {
                 "url": "assets/images/yesBtn.png",

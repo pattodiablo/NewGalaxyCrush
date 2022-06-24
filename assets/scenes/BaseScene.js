@@ -47,9 +47,9 @@ class BaseScene extends Phaser.Scene {
 		//FX
 		this.fxcontainer=[];
 
-		this.GGJ2022_destroy01 = this.sound.add('GGJ2022_destroy01');
-		this.GGJ2022_destroy01.loop = false;
-		this.fxcontainer.push(this.GGJ2022_destroy01);
+	//	this.GGJ2022_destroy01 = this.sound.add('GGJ2022_destroy01');
+	//	this.GGJ2022_destroy01.loop = false;
+		this.fxcontainer.push(); //agregar aqui los fx
 
 
 
